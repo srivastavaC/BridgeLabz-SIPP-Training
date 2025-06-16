@@ -1,4 +1,4 @@
-package day_1;
+package java_control_flows;
 import java.util.Scanner;
 public class Factorial {
 

@@ -1,4 +1,4 @@
-package day_1;
+package java_control_flows;
 import java.util.Scanner;
 public class Integer {
 
@@ -10,7 +10,7 @@ public class Integer {
 	        int number = sc.nextInt();
 
 	        int count = 0;
-	        int temp = Math.abs(number); // Make sure to handle negative numbers
+	        int temp = Math.abs(number); 
 
 	        if (temp == 0) {
 	            count = 1;

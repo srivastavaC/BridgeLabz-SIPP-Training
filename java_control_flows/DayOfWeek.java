@@ -1,6 +1,6 @@
-package day_1;
-import java.util.*;
+package java_control_flows;
 import java.time.LocalDate;
+import java.util.*;
 public class DayOfWeek {
 
 	public static void main(String[] args) {

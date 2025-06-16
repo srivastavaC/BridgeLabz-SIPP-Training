@@ -1,5 +1,5 @@
 package java_programming_elements;
-public class Find_Age{
+public class FInd_Age{
     public static void main(String[] args) {
         String Name ="Harry";
         int YearOfBirth = 2000;
