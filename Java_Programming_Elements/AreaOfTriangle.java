@@ -1,11 +1,13 @@
-import java.util.Scanner;
-public class AreaOfTriangle {
+package java_programming_elements; 
+class AreaOfTriangle {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter The base of the triangle: ");
-        double base = sc.nextDouble();
-        System.out.println("Enter The height of the triangle: ");
-        double height = sc.nextDouble();
-        double area = (base * height)/2;
+        double base = 5.0;
+        double height = 10.0;
+        double area = calculateArea(base, height);
         System.out.println("The area of the triangle is: " + area);
-    }}
+    }
+
+    public static double calculateArea(double base, double height) {
+        return 0.5 * base * height;
+    }
+}

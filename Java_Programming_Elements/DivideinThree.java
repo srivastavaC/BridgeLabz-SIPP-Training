@@ -1,3 +1,4 @@
+package java_programming_elements;
 public class DivideinThree {    
     public static void main(String[] args){
         int NumberOfPen = 14;

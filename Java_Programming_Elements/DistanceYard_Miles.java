@@ -1,3 +1,4 @@
+package java_programming_elements;
 import java.util.Scanner;
 public class DistanceYard_Miles {
     public static void main(String[] args){

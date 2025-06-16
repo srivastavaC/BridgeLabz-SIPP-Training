@@ -1,3 +1,4 @@
+package java_programming_elements;
 public class UniversityDiscount{
     public static void main(String[] args){
         int fee = 125000;
