@@ -1,0 +1,144 @@
+interface Insurable {
+    double calculateInsurance();
+    String getInsuranceDetails();
+}
+
+
+abstract class Vehicle implements Insurable {
+    private String vehicleNumber;
+    private String type;
+    private double rentalRate;
+    private String insurancePolicyNumber;
+
+    
+    public Vehicle(String vehicleNumber, String type, double rentalRate, String insurancePolicyNumber) {
+        this.vehicleNumber = vehicleNumber;
+        this.type = type;
+        this.rentalRate = rentalRate;
+        this.insurancePolicyNumber = insurancePolicyNumber;
+    }
+
+    
+    public String getVehicleNumber() {
+        return vehicleNumber;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public double getRentalRate() {
+        return rentalRate;
+    }
+
+    
+    public void setRentalRate(double rentalRate) {
+        this.rentalRate = rentalRate;
+    }
+
+    
+    protected String getInsurancePolicyNumber() {
+        return insurancePolicyNumber;
+    }
+
+    public abstract double calculateRentalCost(int days);
+
+    public void displayDetails(int days) {
+        System.out.println("Vehicle Number: " + vehicleNumber);
+        System.out.println("Type: " + type);
+        System.out.println("Rental Rate: ₹" + rentalRate + " per day");
+        System.out.println("Rental Cost for " + days + " day(s): ₹" + calculateRentalCost(days));
+        System.out.println(getInsuranceDetails());
+        System.out.println("------------------------------");
+    }
+}
+
+
+class Car extends Vehicle {
+    private final double insuranceRate = 0.10; 
+
+    public Car(String vehicleNumber, double rentalRate, String insurancePolicyNumber) {
+        super(vehicleNumber, "Car", rentalRate, insurancePolicyNumber);
+    }
+
+    @Override
+    public double calculateRentalCost(int days) {
+        return getRentalRate() * days;
+    }
+
+    @Override
+    public double calculateInsurance() {
+        return getRentalRate() * insuranceRate;
+    }
+
+    @Override
+    public String getInsuranceDetails() {
+        return "Car Insurance: ₹" + calculateInsurance() + " [Policy: " + getInsurancePolicyNumber() + "]";
+    }
+}
+
+
+class Bike extends Vehicle {
+    private final double insuranceRate = 0.05; 
+
+    public Bike(String vehicleNumber, double rentalRate, String insurancePolicyNumber) {
+        super(vehicleNumber, "Bike", rentalRate, insurancePolicyNumber);
+    }
+
+    @Override
+    public double calculateRentalCost(int days) {
+        return getRentalRate() * days * 0.9; 
+    }
+
+    @Override
+    public double calculateInsurance() {
+        return getRentalRate() * insuranceRate;
+    }
+
+    @Override
+    public String getInsuranceDetails() {
+        return "Bike Insurance: ₹" + calculateInsurance() + " [Policy: " + getInsurancePolicyNumber() + "]";
+    }
+}
+
+
+class Truck extends Vehicle {
+    private final double insuranceRate = 0.15; 
+
+    public Truck(String vehicleNumber, double rentalRate, String insurancePolicyNumber) {
+        super(vehicleNumber, "Truck", rentalRate, insurancePolicyNumber);
+    }
+
+    @Override
+    public double calculateRentalCost(int days) {
+        return getRentalRate() * days + 500; 
+    }
+
+    @Override
+    public double calculateInsurance() {
+        return getRentalRate() * insuranceRate + 300; 
+    }
+
+    @Override
+    public String getInsuranceDetails() {
+        return "Truck Insurance: ₹" + calculateInsurance() + " [Policy: " + getInsurancePolicyNumber() + "]";
+    }
+}
+
+public class VehicleRentalSystem {
+    public static void main(String[] args) {
+        
+        Vehicle[] vehicles = new Vehicle[3];
+        vehicles[0] = new Car("MH12AB1234", 2000, "C-INS-999");
+        vehicles[1] = new Bike("MH14XY9876", 500, "B-INS-555");
+        vehicles[2] = new Truck("MH15TR5678", 4000, "T-INS-777");
+
+        int rentalDays = 3;
+
+       
+        System.out.println("=== Vehicle Rental Details ===\n");
+        for (Vehicle v : vehicles) {
+            v.displayDetails(rentalDays);
+        }
+    }
+}
