@@ -19,7 +19,7 @@ public class TaskSheduler {
     private TaskNode tail = null;
     private TaskNode current = null;  
 
-    // Add at beginning
+    
     public void addAtBeginning(int taskId, String taskName, int priority, String dueDate) {
         TaskNode newNode = new TaskNode(taskId, taskName, priority, dueDate);
 
@@ -169,7 +169,7 @@ public class TaskSheduler {
 
    
     public static void main(String[] args) {
-        TaskScheduler scheduler = new TaskScheduler();
+        TaskSheduler scheduler = new TaskSheduler();
 
         scheduler.addAtEnd(101, "Write report", 2, "2025-07-10");
         scheduler.addAtBeginning(100, "Fix bug", 1, "2025-07-08");
