@@ -27,18 +27,19 @@ This repository is a structured training program designed to build strong founda
 - 📁 [Stack & Queue](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/DSA/Stack_Queue)
 
 ### 🔸 Core-Java Branch
-- 📁 [DataTypes](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/DataTypes)
-- 📁 [Control Flow Statements](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/ControlFlow)
-- 📁 [Loops](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/Loops)
-- 📁 [Arrays](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/Arrays)
+- 📁 [Java Programming Elements](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/Java_Programming_Elements)
+- 📁 [Built-in Classes](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/built-In)
+- 📁 [Arrays](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/java_arrays)
+- 📁 [Control Flow Statements](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/java_control_flows)
+- 📁 [Methods](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/methods)
+- 📁 [String Handling](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/string_handling)
+- 📁 [Strings](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/strings)
 
 ### 🔸 OOPS Branch
-- 📁 [Abstraction](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Abstraction)
-- 📁 [Inheritance](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Inheritance)
-- 📁 [Polymorphism](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Polymorphism)
-- 📁 [Interface](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Interface)
+- 📁 [OOPS Concepts](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/OOPS)
+- 📁 [OOPS Workshop](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Workshop)
+
 
 ### 🔸 Generics Branch
-- 📁 [Generic Classes](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/GenericClass)
-- 📁 [Generic Methods](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/GenericMethods)
-- 📁 [Bounded Types](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/BoundedTypes)
+- 📁 [Collections](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/Collections)
+- 📁 [Generics Concepts](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/Generics)
