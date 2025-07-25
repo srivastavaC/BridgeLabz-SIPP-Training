@@ -26,12 +26,19 @@ This repository is a structured training program designed to build strong founda
 - 📁 [Sorting Algorithms](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/DSA/Sorting)
 - 📁 [Stack & Queue](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/DSA/Stack_Queue)
 
----
+### 🔸 Core-Java Branch
+- 📁 [DataTypes](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/DataTypes)
+- 📁 [Control Flow Statements](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/ControlFlow)
+- 📁 [Loops](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/Loops)
+- 📁 [Arrays](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Core-Java/Arrays)
 
-## 🚀 How to Get Started
+### 🔸 OOPS Branch
+- 📁 [Abstraction](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Abstraction)
+- 📁 [Inheritance](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Inheritance)
+- 📁 [Polymorphism](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Polymorphism)
+- 📁 [Interface](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/OOPS/Interface)
 
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/srivastavaC/BridgeLabz-SIPP-Training.git
-cd BridgeLabz-SIPP-Training
+### 🔸 Generics Branch
+- 📁 [Generic Classes](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/GenericClass)
+- 📁 [Generic Methods](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/GenericMethods)
+- 📁 [Bounded Types](https://github.com/srivastavaC/BridgeLabz-SIPP-Training/tree/Generics/BoundedTypes)
