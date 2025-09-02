@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="BridgeLabz-SIPP-Training">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Collections.zip!/" />
+      <root url="jar://$PROJECT_DIR$/FunctionalInterface.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Lambda.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Regex-.zip!/" />
+      <root url="jar://$PROJECT_DIR$/New Compressed (zipped) Folder.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Exceptions.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

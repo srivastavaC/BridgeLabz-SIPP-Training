@@ -9,4 +9,8 @@ public class Vehicles {
     public Vehicles(String model, String color) {
     }
 
+    void display() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
 }
